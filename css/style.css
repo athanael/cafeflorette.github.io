@@ -393,12 +393,14 @@ textarea {
   .content .container .plan-text .underline {
     width: 75%;
   }
+}
 
-  @media (orientation: landscape) {
-    .content, .contact {
-      height: fit-content;
-    }
-    .contact {
-      padding-bottom: 40px;
-    }
+@media (orientation: landscape) {
+  .content,
+  .contact {
+    height: fit-content;
   }
+  .contact {
+    padding-bottom: 40px;
+  }
+}
